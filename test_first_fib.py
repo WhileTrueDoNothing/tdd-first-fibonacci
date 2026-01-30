@@ -10,3 +10,7 @@ def test_single_step():
 def test_first_nums():
     assert first_fib(1,3) == (1,3)
     assert first_fib(23,47) == (23,47)
+
+def test_multi_step():
+    assert first_fib(398,644) == (2,6)
+    assert first_fib(2462,3984) == (44,90)

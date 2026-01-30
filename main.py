@@ -1,2 +1,2 @@
 def first_fib(num1, num2):
-    pass
+    return((num2-num1), num1)

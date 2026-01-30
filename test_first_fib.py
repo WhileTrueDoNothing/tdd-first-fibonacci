@@ -6,3 +6,7 @@ def test_smoke():
 def test_single_step():
     assert first_fib(7,8) == (1,7)
     assert first_fib(2,2) == (0,2)
+
+def test_first_nums():
+    assert first_fib(1,3) == (1,3)
+    assert first_fib(23,47) == (23,47)
